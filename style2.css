@@ -1,0 +1,95 @@
+table{
+    margin-top: 200px;
+    /*margin-top: 150px;*/
+    margin-left: 500px;
+    padding-left: 90px;
+    padding-top: 90px;
+    padding-right: 90px;
+    padding-bottom: 90px;
+    position: relative;
+    
+}
+
+.player1,
+.player2{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom:  10px;
+    padding-top: 20px;
+    font-size: 50px;
+color: red;
+}
+
+
+.score1,
+.score2{
+    padding-bottom: 100px;
+    padding-left: 105px;
+font-size:35px;
+
+}
+
+.changing1,
+.changing2{
+    padding-left: 100px;
+    background-color: red;
+    border-radius: 15px;
+}
+
+
+.current1,
+.current2
+{
+    font-size: 20px;
+    color: white;
+}
+
+.current-score1,
+.current-score2{
+font-size: 18px;
+padding-top: 20px;
+padding-left: 30px;
+color: white;
+
+}
+
+.dice{
+    height: 50px;
+    width: 50px;
+    margin-left: 750px;
+    margin-top: 100px;
+    position: absolute;
+    border:1px solid black;
+}
+body{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+ }
+ #btn1{
+     margin-left: 695px;
+     margin-top: 50px;
+ }
+ #btn2{
+     margin-top:50px ;
+ }
+
+
+ /* css animation
+ .animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:1000px; top:0px;}
+    100%  {background-color:blue; left:200px; top:200px;}
+    100%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }*/
